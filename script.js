@@ -15,7 +15,7 @@ let stars = Array(222).fill().map(() => ({
   x: Math.random() * width,
   y: Math.random() * height,
   r: Math.random() * 1.5 + 0.5,
-  dx:  Math.random() * 0.5 - 0.25,
+  dx: Math.random() * 0.5 - 0.25,
   dy: Math.random() * 0.5 - 0.25
 }));
 
@@ -206,4 +206,4 @@ async function sendChat() {
   }
 
   document.getElementById('chat-input').value = '';
-}<script src="script.js"></script>
+}
