@@ -160,9 +160,6 @@ setInterval(() => {
 }, 2000);
 
 // AI Chat Integration (using xAI Grok API)
-const API_KEY = 'ssjQdOgaOZgKoWQcscLK8jtGX2vzbkgWRqTpLvtZz9u6DCMTnEQy8qyqhESrYYidd9AWoI76S3TNXdDI';
-const API_ENDPOINT = 'https://api.x.ai/v1/chat/completions';
-const MODEL = 'grok-3';
 
 async function sendChat() {
   const input = document.getElementById('chat-input').value.trim();
